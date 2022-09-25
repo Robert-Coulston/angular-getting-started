@@ -18,7 +18,7 @@ export class AppComponent {
     const suggestedName = 'Superuser';
   }
 
-  onSSubmit(form: NgForm) {
+  onSubmit(form: NgForm) {
     console.log(form);
   }
 
